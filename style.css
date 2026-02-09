@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #b983ff, #7f7fd5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= INDEX ================= */
+.container {
+  background: #fff;
+  width: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container input,
+.container select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.container button {
+  background: #7f7fd5;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background: #6c6cd1;
+}
+
+.container .link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* ================= STRUK ================= */
+.struk {
+  background: rgba(255,255,255,0.25);
+  width: 360px;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+}
+
+.struk h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.back {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  color: #000;
+  text-decoration: none;
+}
